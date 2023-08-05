@@ -1,0 +1,11 @@
+@media screen and (max-width:998px){
+    #about img{
+        width: 100%;
+    }
+    .text-about{
+        position: static;
+    }
+    .container{
+        padding: 10px;
+    }
+}

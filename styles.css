@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/premium_photo-1667049292891-22a01a767f5e.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.entete h3{
+    color: orangered;
+}
+.header{
+    background-color: #490909;
+    padding: 20px;
+}
+.container{
+    padding: 80px;
+}
+.text{
+    background-color: rgb(242, 211, 170);
+    padding: 10px;
+}
+/* HOME */
+.images img{
+    width: 600px;
+}
+.home-text{
+    padding: 20px;
+    position: relative;
+    bottom: -40px;
+    left: 180px;
+}
+.btn-home button{
+    position: absolute;
+    bottom: -20px;
+    right: 130px;
+    background-color: #490909;
+    width: 120px;
+    padding: 10px;
+}
+.home{
+    background-color: rgba(245, 000, 000, 0.5);
+    height: 400px;
+    position: relative;
+}
+.row-test{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.promise{
+    padding: 40px;
+    margin: 10px;
+}
+/* ABOUT */
+#about{
+    margin-bottom: 100px;
+}
+.about{
+    position: relative;
+}
+.text-about{
+    position: absolute;
+    bottom: -120px;
+    left: 120px;
+}
+/* PRODUCT */
+.picture1{
+    position: relative;
+}
+.picture1 img{
+   width: 600px;
+}
+.text1{
+    position: absolute;
+    bottom: -80px;
+    left: 40px;
+}
+.text2{
+    position: absolute;
+    top: -50px;
+    right: 50px;
+}
+/* Picture 2 */
+.content{
+    margin-top: 100px;
+}
+.picture2 img{
+    width: 600px;
+}
+.picture2{
+    position: relative;
+    margin-top: 100px;
+    padding: 100px;
+}
+.text3{
+    position: absolute;
+    top: 40px;
+}
+.text4{
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+}
+/* PICTURE 3 */
+.picture3 img{
+    width: 600px;
+}
+.picture3{
+    position: relative;
+    margin-top: 100px;
+    padding: 100px;
+}
+/* store */
+#store{
+   background-color: rgba(245, 000, 000, 0.5);
+   height: 800px;
+   position: relative;
+   margin-top: 50px;
+}
+.test1{
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.trait{
+    background-color: #333;
+    height: 2px;
+}
+.store-container{
+    margin-bottom: 180px;
+}
+.store-pic{
+    position: relative;
+}
+.text-store{
+    position: absolute;
+    bottom: -200px;
+    left: 130px;
+}
+footer{
+    padding: 30px;
+    background-color: #260505;
+}

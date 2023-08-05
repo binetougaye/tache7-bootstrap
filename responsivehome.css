@@ -1,0 +1,11 @@
+@media screen and (max-width:989px) {
+    .images img{
+        width: 100%;
+    }
+    .home-text, .btn-home{
+        position: static;
+    }
+    .promise, .container{
+        padding: 0px;
+    }
+}
